@@ -1,0 +1,47 @@
+# Core LLM + LangChain ecosystem
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+langchain-google-genai>=2.0.0
+langgraph>=0.2.0
+
+# OpenAI
+openai>=1.30.0
+
+# Tavily Search Tool
+tavily-python>=0.5.0
+
+# Web scraping
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+lxml>=5.0.0
+
+# Backend
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+httpx>=0.27.0
+
+# Frontend
+streamlit>=1.38.0
+
+# Environment / settings
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.4.0
+
+# Data handling
+pandas>=2.0.0
+
+# Token counting / text utils
+tiktoken>=0.6.0
+
+# Logging / debugging
+rich>=13.7.0
+
+# Retry + robustness
+tenacity>=8.2.0
+
+# Testing
+pytest>=8.0.0
+pytest-mock>=3.14.0
